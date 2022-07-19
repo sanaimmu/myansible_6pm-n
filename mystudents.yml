@@ -1,0 +1,25 @@
+---
+- mystudents:
+  - name: anil
+    phone: 4589235712
+    address:
+      doorno: 254
+      streetno: 2
+      pin: 5202555
+
+  - name: balu
+    phone: 4826845925
+    address: 
+      doorno: 455
+      streetno: 5
+      pin: 565262
+
+
+  - name: sana
+    phone: 47826823692
+    address:
+      doorno: 5895
+      streetno: 8
+      pin: 528522
+
+      

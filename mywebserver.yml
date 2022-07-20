@@ -9,7 +9,7 @@
 
 
   - name: start webserver on ubuntu ansible nodes
-    apt:
+    service:
       name: apache2
       state: started
       

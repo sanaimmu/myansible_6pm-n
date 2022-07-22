@@ -23,7 +23,7 @@
       state: present
     when: ansible_os_family== "RedHat"
 
-  - name: start webserver on redHt ansible nodes
+  - name: start webserver on redHat ansible nodes
     service:
       name: httpd
       state: started

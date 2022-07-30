@@ -19,27 +19,17 @@
   
   - name: install webserver on RedHat ansible nodes
     yum:
-      name: "{{mywebserverpackonRedhat}}"
+      name: httpd
       state: present
     when: ansible_os_family== "RedHat"
 
   - name: start webserver on redHat ansible nodes
     service:
-      name: "{{mywebserverpackonRedhat}}"
+      name: httpd
       state: started
     when: ansible_os_family== "RedHat"
 
-  - name: i want to install webserver on RedHat nodes
-    yum:
-      name: "{{mywebpackonredhat}}"
-      state: present
-    when: ansible_os_family =="RedHat"
-
-  - name: i want to start webserver
-    service:
-       name: "{{mywebpackonredhat}}"
-       state: started
-    when: ansible_os_family =="RedHat"
+  
 
     
       

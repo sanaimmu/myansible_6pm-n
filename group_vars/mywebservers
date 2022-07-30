@@ -1,4 +1,4 @@
 ---
 
- mywebserverpackonubuntua: apache222
+ mywebserverpackonubuntua: apache2
  mywebserverpackonRedhat:  httpd
